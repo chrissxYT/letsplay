@@ -1,0 +1,1 @@
+ffmpeg -i %1 -crf 34 -filter:v scale=1280:720 -r 30 -ac 1 -b:a 96k %1.lq.mp4
